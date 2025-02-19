@@ -16,6 +16,9 @@ header {
     z-index: 1;
 }
 
+body {
+}
+
 nav {
     text-align: right;
     display: flex;
@@ -31,14 +34,13 @@ nav {
 
 
 nav ul {
-    display: inline-block; 
     margin-left: auto;
     display: flex;
     padding-right: 10px;
     align-items: center;
   }
 
-  .menu-link {
+.menu-link {
     text-decoration: underline;
     margin-left: 20px;
     display: inline-block;
@@ -47,5 +49,42 @@ nav ul {
   
 main {
     position: relative;
-    top: 69px; 
+    top: 69px;     
+    max-width: 1200px;
+    margin: auto;
+}
+
+div {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.intro-header {    
+    width: 1200px;
+    height: 700px;   
+    overflow: hidden;
+}
+
+.intro-header img {
+    object-fit: cover;
+}
+
+.intro-txt {
+    top: 350px;
+    align-items: center;
+    z-index: 1;
+}
+
+h2 {        
+    font-size: 30px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 2;
+    padding: 10px;
 }

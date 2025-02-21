@@ -86,7 +86,7 @@ div {
 h2 {        
     font-size: 36px;
     font-weight: 700;
-    margin:15px;
+    margin: 15px;
 }
 
 h4 {
@@ -152,7 +152,6 @@ h5 {
     display: inline-flex;
     justify-content: space-evenly;
     background-color: transparent;
-    margin: 15px 0px;
 }
 .locations img {
     position: absolute;
@@ -177,7 +176,7 @@ h5 {
     margin-bottom: 15px;
 }
 
-.locations-txt-field h2, h4 {
+.locations-txt-field h4,p {
     height: 25px;
     margin: 0;
 }
